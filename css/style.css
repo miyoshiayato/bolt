@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+.wrapper {
+  background-color: #f2f2f2;
+}
+
+a {
+  display: inline-block;
+}
+
+body {
+  font-family: 'Lato';
+}
+
+li {
+  display: inline-block
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+/* ヘッダー */
+.header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 15px 0;
+}
+
+.header-inner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  color: #7e7d7d;
+  font-size: 40px;
+}
+
+.contact_link {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact_link:hover {
+  color: #333;
+}
+
+/* テーマ */
+.main {
+  padding-top: 70px;
+}
+
+.main__theme {
+  padding: 250px 0 ;
+}
+
+.main__theme_textbox {
+  text-align: center;
+}
+
+.bolt-theme {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.title {
+  font-family: 'Raleway';
+}
+
+.bolt-subtheme {
+  font-size: 30px;
+  color: #c0c0c0;
+  margin-top: 20px;
+}
+
+/* WHAT WE CAN DO? */
+.main__section {
+  background-color: #74cfae;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.main__section_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main__section_textbox {
+  margin-left: 240px;
+  color: #fff;
+}
+
+.iphone_img {
+  vertical-align: top;
+}
+
+.section-title {
+  font-size: 24px;
+}
+
+.section-text {
+  font-size: 20px;
+  line-height: 1.5em;
+  overflow-wrap: break-word;
+  margin-top: 35px;
+}
+
+/* OUR LATEST WORKS */
+.main__section__works {
+  padding: 60px 0 70px 0;
+}
+
+.section__works_title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.works-images {
+  margin-top: 40px;
+}
+
+.work {
+  float: left;
+  margin-left: 100px;
+}
+
+.work:nth-child(n + 4) {
+  margin-top: 80px;
+}
+
+.work:nth-child(3n + 1) {
+  margin-left: 0;
+}
+
+.img_link {
+  display: block;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.img_link:hover {
+  opacity: 1;
+}
+
+.work_img {
+  display: block;
+}
+
+.email-form-inner {
+  display: flex;
+  margin: 90px auto 0 auto;
+  width: 730px;
+}
+
+.email-form_text_box {
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.email-form_text {
+  line-height: 1.5em;
+}
+
+.email-form_button {
+  margin-left: 90px;
+}
+
+.button_text {
+  /* ソース中の改行を1つの半角スペースとして表示 */
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+/* ホバー時のcolor指定 */
+.button_text:hover {
+  color: #333;
+}
