@@ -21,6 +21,13 @@ li {
   margin: 0 auto;
 }
 
+.form_box {
+  background-color: #74cfae;
+  color: #fff;
+  font-size: 12px;
+  padding: 14px 20px;
+}
+
 
 /* ヘッダー */
 .header {
