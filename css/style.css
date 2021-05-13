@@ -113,8 +113,9 @@ li {
 }
 
 .main__section_textbox {
-  width: 650px;
   color: #fff;
+  margin-top: 25px;
+  width: 650px;
 }
 
 .iphone_img {
@@ -123,7 +124,6 @@ li {
 
 .section-title {
   font-size: 24px;
-  margin-top: 25px;
 }
 
 .section-text {
