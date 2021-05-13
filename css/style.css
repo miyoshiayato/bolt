@@ -20,6 +20,10 @@ body {
   padding: 14px 20px;
 }
 
+.raleway {
+  font-family: 'Raleway';
+}
+
 
 /* ヘッダー */
 .header {
@@ -52,11 +56,6 @@ body {
 .contact_link:hover {
   color: #333;
 }
-
-.raleway {
-  font-family: 'Raleway';
-}
-
 
 
 /* テーマ */
