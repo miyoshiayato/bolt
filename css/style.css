@@ -4,16 +4,8 @@
   background-color: #f2f2f2;
 }
 
-a {
-  display: inline-block;
-}
-
 body {
   font-family: 'Lato';
-}
-
-li {
-  display: inline-block
 }
 
 .inner {
@@ -61,6 +53,11 @@ li {
   color: #333;
 }
 
+.raleway {
+  font-family: 'Raleway';
+}
+
+
 
 /* テーマ */
 .main {
@@ -75,17 +72,13 @@ li {
   text-align: center;
 }
 
-.bolt-theme {
+.main__theme_title {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
 }
 
-.title {
-  font-family: 'Raleway';
-}
-
-.bolt-subtheme {
+.subtheme {
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
@@ -143,6 +136,7 @@ li {
 }
 
 .works-images {
+  display: inline-block;
   margin-top: 40px;
 }
 
@@ -195,6 +189,7 @@ li {
 .button_text {
   white-space: nowrap;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 /* ホバー時のcolor指定 */
@@ -223,6 +218,8 @@ li {
 }
 
 .skill-box {
+  display: inline-block;
+  font-size: 0;
   margin-left: 180px;
 }
 
@@ -248,6 +245,7 @@ li {
 }
 
 .sns {
+  display: inline-block;
   width: 185px;
 }
 
