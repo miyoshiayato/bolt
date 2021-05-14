@@ -72,6 +72,10 @@ li {
   color: #333;
 }
 
+.fa-bars {
+  display: none;
+}
+
 
 /* テーマ */
 .main {
@@ -357,6 +361,78 @@ li {
   .skill-box:last-child {
     margin-bottom: 0;
   }
-
 }
 
+/* 767pxまでに適用されるCSS（SP用）*/
+@media screen and (max-width: 767px){
+  /* ヘッダー */
+  .header {
+    display: flex;
+  }
+
+  .bolt__contactbox {
+    display: none;
+  }
+
+  .icon {
+    font-size: 60px;
+  }
+
+  .hamburgarmenu {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    padding: 10px;
+  }
+
+  .hamburgarmenu span {
+    width: 30px;
+    height: 2px;
+    background-color: #ddd;
+    position: absolute;
+  }
+
+  .span2 {
+    top: 20px;
+  }
+
+  .span3 {
+    top: 30px;
+  }
+  
+
+
+  
+
+  /* テーマ */
+  .main__theme {
+    padding: 160px 0 130px 0;
+  }
+
+  .main__theme_title {
+    font-size: 80px;
+  }
+
+  /* WHAT WE CAN DO */
+  .main__section_textbox {
+    width: auto;
+  }
+
+  .email-form-inner {
+    width: auto;
+  }
+
+  .main__section_sns {
+    padding: 50px 0;
+  }
+
+  .sns {
+    width: 100%;
+  }
+
+  
+
+
+}
