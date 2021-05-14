@@ -72,7 +72,7 @@ li {
   color: #333;
 }
 
-.fa-bars {
+.hamburgarmenu {
   display: none;
 }
 
@@ -291,6 +291,10 @@ li {
 
 /* 1199px以下に適用されるCSS（TAB用） */
 @media screen and (max-width: 1199px) {
+  .hamburgarmenu {
+    display: none;
+  }
+
   /* WHAT WE CAN DO? */
   .inner {
     width: 97%;
@@ -379,6 +383,7 @@ li {
   }
 
   .hamburgarmenu {
+    display: block;
     border: 1px solid #ddd;
     border-radius: 4px;
     position: relative;
@@ -401,9 +406,6 @@ li {
   .span3 {
     top: 30px;
   }
-  
-
-
   
 
   /* テーマ */
