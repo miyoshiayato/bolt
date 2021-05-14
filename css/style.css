@@ -154,11 +154,12 @@ li {
 
 .work {
   float: left;
+  margin-top: 80px;
   margin-left: 100px;
 }
 
-.work:nth-child(n + 4) {
-  margin-top: 80px;
+.work:nth-child(-n + 3) {
+  margin-top: 0px;
 }
 
 .work:nth-child(3n + 1) {
@@ -291,10 +292,6 @@ li {
 
 /* 1199px以下に適用されるCSS（TAB用） */
 @media screen and (max-width: 1199px) {
-  .hamburgarmenu {
-    display: none;
-  }
-
   /* WHAT WE CAN DO? */
   .inner {
     width: 97%;
@@ -311,7 +308,7 @@ li {
 
   .main__section_textbox {
     margin: 20px auto 0 auto;
-    width: 950px;
+    width: 95%;
   }
 
   
@@ -321,25 +318,25 @@ li {
     flex-direction: column;
     align-items: center;
     font-size: 0;
+    margin: 0;
   }
 
   .work {
-    margin-left: 0;
-    vertical-align: bottom;
+    margin: 0;
   }
-  
-  .work:nth-child(n + 4) {
+
+  .work:nth-child(1) {
     margin-top: 0;
   }
 
-  .work:nth-child(4) {
+  .work:nth-child(3n+1) {
     margin-top: 80px;
   }
   
   .email-form-inner {
     display: block;
     margin-top: 80px;
-    width: 775px;
+    width: 80%;
   }
 
   .email-form_text_box {
@@ -370,16 +367,8 @@ li {
 /* 767pxまでに適用されるCSS（SP用）*/
 @media screen and (max-width: 767px){
   /* ヘッダー */
-  .header {
-    display: flex;
-  }
-
   .bolt__contactbox {
     display: none;
-  }
-
-  .icon {
-    font-size: 60px;
   }
 
   .hamburgarmenu {
@@ -399,11 +388,15 @@ li {
     position: absolute;
   }
 
-  .span2 {
+  .hamburgarmenu span:nth-of-type(1) {
+    top: 10px;
+  }
+
+  .hamburgarmenu span:nth-of-type(2) {
     top: 20px;
   }
 
-  .span3 {
+  .hamburgarmenu span:nth-of-type(3) {
     top: 30px;
   }
   
@@ -419,11 +412,11 @@ li {
 
   /* WHAT WE CAN DO */
   .main__section_textbox {
-    width: auto;
+    width: 100%;
   }
 
   .email-form-inner {
-    width: auto;
+    width: 100%;
   }
 
   .main__section_sns {
