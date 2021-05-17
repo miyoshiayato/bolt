@@ -329,13 +329,9 @@ li {
     width: 80%;
   }
 
-  .email-form_text_box {
-    margin-bottom: 40px;
-  }
-
   .email-form_button {
     text-align: center;
-    margin: 0 auto 0 auto;
+    margin: 40px auto 0 auto;
   }
 
   /* OUR SKILLS */
