@@ -38,7 +38,6 @@ li {
   clear: both;
 }
 
-
 /* ヘッダー */
 .header {
   background-color: #fff;
@@ -76,7 +75,6 @@ li {
   display: none;
 }
 
-
 /* テーマ */
 .main {
   padding-top: 70px;
@@ -101,7 +99,6 @@ li {
   color: #c0c0c0;
   margin-top: 20px;
 }
-
 
 /* WHAT WE CAN DO? */
 .main__section {
@@ -136,7 +133,6 @@ li {
   overflow-wrap: break-word;
   margin-top: 35px;
 }
-
 
 /* OUR LATEST WORKS */
 .main__section__works {
@@ -211,7 +207,6 @@ li {
   color: #333;
 }
 
-
 /* OUR SKILLS */
 .main__section_skills {
   padding: 70px 0 100px 0;
@@ -247,7 +242,6 @@ li {
   color: #fff;
 }
 
-
 /* SNS COLUMN */
 .main__section_sns {
   padding: 200px 0;
@@ -278,7 +272,6 @@ li {
   font-size: 40px;
 }
 
-
 /* footer */
 .footer {
   background-color: #74cfae;
@@ -303,7 +296,6 @@ li {
   
   .main__section_inner {
     display: block;
-
   }
 
   .main__section_textbox {
@@ -311,26 +303,24 @@ li {
     width: 95%;
   }
 
-  
-  /* OUR LATEST WORKS */
+    /* OUR LATEST WORKS */
   .works-images {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 0;
-    margin: 0;
   }
 
   .work {
     margin: 0;
   }
 
-  .work:nth-child(1) {
-    margin-top: 0;
-  }
-
   .work:nth-child(3n+1) {
     margin-top: 80px;
+  }
+
+  .work:nth-child(1) {
+    margin-top: 0;
   }
   
   .email-form-inner {
@@ -345,9 +335,8 @@ li {
 
   .email-form_button {
     text-align: center;
-    margin: 40px auto 0 auto;
+    margin: 0 auto 0 auto;
   }
-
 
   /* OUR SKILLS */
   .skills {
@@ -356,11 +345,12 @@ li {
 
   .skill-box {
     display: block;
-    margin: 0 auto 88px;
+    margin-left: 0;
+    margin-top: 88px;
   }
 
-  .skill-box:last-child {
-    margin-bottom: 0;
+  .skill-box:first-child {
+    margin-top: 0;
   }
 }
 
@@ -400,7 +390,6 @@ li {
     top: 30px;
   }
   
-
   /* テーマ */
   .main__theme {
     padding: 160px 0 130px 0;
@@ -426,8 +415,4 @@ li {
   .sns {
     width: 100%;
   }
-
-  
-
-
 }
